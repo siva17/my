@@ -15,7 +15,8 @@ JavaScript Framework for Hybrid and Web App development
 	* exception : exception object.
 * MY.Log.config(configParams)
   * *configParams* : Optional API Call and JSON Object with following JSON items
-		```{
+		```javascript
+		{
 			"logInBuffer" : variable,
 			"buildType" : 1 to 4 values,
 			"logLevel" : integer value
