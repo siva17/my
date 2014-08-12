@@ -36,7 +36,7 @@ JavaScript Framework for Hybrid and Web App development
 ### MY.Cache
 * available: indicates whether current system support cache manifest mechanism
 * config : JSON object will following callbacks
-  - ```
+  ```
   {
   	"cacheError" : callback,
   	"cacheUpdate" : callback,
