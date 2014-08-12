@@ -5,26 +5,25 @@ JavaScript Framework for Hybrid and Web App development
 
 #APIs and Usage
 
-MY.Log
-------
-MY.Log.flow(message);
-MY.Log.info(message);
-MY.Log.warn(message);
-MY.Log.error(message);
-MY.Log.exception(exception,message);
-parameters: message   : String
+### MY.Log
+* MY.Log.flow(message);
+* MY.Log.info(message);
+* MY.Log.warn(message);
+* MY.Log.error(message);
+* MY.Log.exception(exception,message);
+parameters: message   : string
             exception : exception object.
 
-MY.Log.config(configParams)
-configParams : Optional API Call and JSON Object with following JSON items
+* MY.Log.config(configParams)
+*configParams* : Optional API Call and JSON Object with following JSON items
 		{
 			"logInBuffer" : variable,
 			"buildType" : 1 to 4 values,
 			"logLevel" : integer value
 		}
-logInBuffer : 
-buildType : Possible values are 1 to 4 1 with all Logs enable and 4 with only exception logs enabled.
-logLevel : Possible value is combination of following options
+*logInBuffer* : 
+*buildType* : Possible values are 1 to 4 1 with all Logs enable and 4 with only exception logs enabled.
+*logLevel* : Possible value is combination of following options
 	EXCEP = 0x01
 	ERROR = 0x02
 	WARN  = 0x04
