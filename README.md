@@ -32,3 +32,12 @@ JavaScript Framework for Hybrid and Web App development
 	- FLOW  = 0x10
 	- As the values are Bit wise enabled values, can pass combination of it.
 	  For example if needs to enable WARN and ERROR, the can pass value (0x02 | 0x04)
+
+### MY.Cache
+* available: indicates whether current system support cache manifest mechanism
+* config : JSON object will following callbacks and parameters
+  - *cacheError* : Callback called when cache Error.
+  - *cacheUpdate* : Callback called when cache is updating. If this function returns false then a confirm message will be shown to user.
+  - *cacheChecking* : Callback called when cache is checking.
+  - *cacheInprogres* : Callback called when cache is in progress.
+  - *cacheComplete* : Callback called when cache update is completed.
