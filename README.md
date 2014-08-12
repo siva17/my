@@ -11,9 +11,8 @@ JavaScript Framework for Hybrid and Web App development
 * MY.Log.warn(message);
 * MY.Log.error(message);
 * MY.Log.exception(exception,message);
-parameters: message   : string
-            exception : exception object.
-
+	* message   : string
+	* exception : exception object.
 * MY.Log.config(configParams)
   * *configParams* : Optional API Call and JSON Object with following JSON items
 		```{
