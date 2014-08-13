@@ -1,7 +1,7 @@
 my
 ==
 
-JavaScript Framework for Hybrid and Web App development
+JavaScript Component for Hybrid and Web App development
 
 ##APIs and Usage
 
