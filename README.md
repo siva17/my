@@ -53,8 +53,23 @@ JavaScript Framework for Hybrid and Web App development
 
 ### MY.Connection
 * sendRequest: After creating an instance of MY.Connection, can send the AJAX request
-  - config : JSON object will following parameters and callbacks
-  
+  - *config* : JSON object will following parameters and callbacks
+    - *url* : URL value
+    - *httpMethod* : HTTP method like, GET, POST, PUT, DELETE etc.
+    - *postData* : JSON Data send as data in body for post method.
+    - *headers* : JSON Object containing names of headers as Key and value.
+    - *timeOut* : Connection Timeout value, if not passed will take as 30 seconds.
+    - *onLoading* : Callback: when request is Loading.
+    - *onLoaded* : Callback: when request is Loaded.
+    - *onProgress* : Callback: when request in progress.
+    - *onComplete* : Callback: When request is completed. User should use this to confirm request completion.
+    - *onTimeOut* : Callback: When request is timedout.
+    
+  - For all Callbacks will get a config with following parameters.
+    - *response* : Response data if any
+    - *state* : HTTP State (0 to 4)
+    - *httpCode* : HTTP Code like 200, 1xx, 2xx etc
+    
 * Usage: 
   ```
   var myAjaxRequest = new MY.Connection();
