@@ -65,7 +65,7 @@ JavaScript Framework for Hybrid and Web App development
     - *onComplete* : Callback: When request is completed. User should use this to confirm request completion.
     - *onTimeOut* : Callback: When request is timedout.
     
-  - For all Callbacks will get a config with following parameters.
+  - For all Callbacks will get a object with following parameters.
     - *response* : Response data if any
     - *state* : HTTP State (0 to 4)
     - *httpCode* : HTTP Code like 200, 1xx, 2xx etc
