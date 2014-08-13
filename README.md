@@ -92,5 +92,17 @@ JavaScript Framework for Hybrid and Web App development
 * *createAsyncCallBack(scope,fn)*: Creates Async Callback function with provided scope and callback.
 * *triggerAsyncCallBack(cb,data,timeout)*: Calls the Asyn Callback. cb is the return value of createAsyncCallBack.
 * 
-* *addEvent*: Add DOM events
+* *clonePropertiesFromSrc(obj1,obj2)*: Synanomous to MY.extend. obj1 will override any parameters in obj2.
+* *getJSONObject(str)*: Converts JSON String to JSON object.
+* *getJSONString(obj)*: Converts JSON object to JSON string.
+* 
 * *getBrowser*: Get the name of the Browser like Chrome, iPad, Opera, Safari, Firefox etc.
+* *addEvent*: Add DOM events
+* *createDomElement(config)*: Creates DOM element
+* *addStyleTagToHead(src)*: Adds Style to Head.
+* *addScriptTagToHead(src)*: Adds Scriptto Head.
+* 
+* *toggleSpinner*: Toggles the laoding spinner.
+  - *state*: Optional, can pass the state as true or false.
+  - *isWhite*: If true, then spinner will be white else gray.
+* 
