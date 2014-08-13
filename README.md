@@ -15,12 +15,13 @@ JavaScript Framework for Hybrid and Web App development
 	* exception : exception object.
 * MY.Log.config(configParams)
   * *configParams* : Optional API Call and JSON Object with following JSON items
-		```
-		{
-			"logInBuffer" : variable,
-			"buildType" : 1 to 4 values,
-			"logLevel" : integer value
-		}```
+    ```
+    {
+       "logInBuffer" : variable,
+       "buildType" : 1 to 4 values,
+       "logLevel" : integer value
+    }
+    ```
 
   * *logInBuffer* : 
   * *buildType* : Possible values are 1 to 4 1 with all Logs enable and 4 with only exception logs enabled.
@@ -34,17 +35,17 @@ JavaScript Framework for Hybrid and Web App development
 	  For example if needs to enable WARN and ERROR, the can pass value (0x02 | 0x04)
 
 ### MY.Cache
-* available: indicates whether current system support cache manifest mechanism
-* config : JSON object will following callbacks
-  ```
-  {
-  	"cacheError" : callback,
-  	"cacheUpdate" : callback,
-  	"cacheChecking" : callback,
-  	"cacheInprogres" : callback,
-  	"cacheComplete" : callback
-  }
-  ```
+* *available*: indicates whether current system support cache manifest mechanism
+* *config* : JSON object will following callbacks
+    ```
+    {
+      "cacheError" : callback,
+      "cacheUpdate" : callback,
+      "cacheChecking" : callback,
+      "cacheInprogres" : callback,
+      "cacheComplete" : callback
+    }
+    ```
   - *cacheError* : Callback called when cache Error.
   - *cacheUpdate* : Callback called when cache is updating. If this function returns false then a confirm message will be shown to user.
   - *cacheChecking* : Callback called when cache is checking.
