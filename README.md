@@ -50,3 +50,7 @@ JavaScript Framework for Hybrid and Web App development
   - *cacheChecking* : Callback called when cache is checking.
   - *cacheInprogres* : Callback called when cache is in progress.
   - *cacheComplete* : Callback called when cache update is completed.
+
+### MY.Connection
+* sendRequest: After creating an instance of MY.Connection, can send the AJAX request
+  - config : JSON object will following parameters and callbacks
