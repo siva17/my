@@ -54,3 +54,10 @@ JavaScript Framework for Hybrid and Web App development
 ### MY.Connection
 * sendRequest: After creating an instance of MY.Connection, can send the AJAX request
   - config : JSON object will following parameters and callbacks
+  
+* Usage: 
+  ```
+  var myAjaxRequest = new MY.Connection();
+  if(myAjaxRequest) myAjaxRequest.sendRequest(config);
+  ````
+
