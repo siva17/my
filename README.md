@@ -37,15 +37,15 @@ JavaScript Framework for Hybrid and Web App development
 ### MY.Cache
 * *available*: indicates whether current system support cache manifest mechanism
 * *config* : JSON object will following callbacks
-    ```
-    {
+  ```
+  {
       "cacheError" : callback,
       "cacheUpdate" : callback,
       "cacheChecking" : callback,
       "cacheInprogres" : callback,
       "cacheComplete" : callback
-    }
-    ```
+  }
+  ```
   - *cacheError* : Callback called when cache Error.
   - *cacheUpdate* : Callback called when cache is updating. If this function returns false then a confirm message will be shown to user.
   - *cacheChecking* : Callback called when cache is checking.
