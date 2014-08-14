@@ -85,10 +85,6 @@ JavaScript Component for Hybrid and Web App development
 * *toNumber(value)*: Converts string to number.
 * *validateEmail(email)*: Validates the Email and returns true or false.
 * 
-* *getKeys(obj)*: Returns the array of Keys of Object.
-* *getKey(obj,value)*: Returns the Key of value in the object. Used for loop to get the key.
-* *getValues(obj)*: Returns the array of values of the Object.
-* 
 * *createAsyncCallBack(scope,fn)*: Creates Async Callback function with provided scope and callback.
 * *triggerAsyncCallBack(cb,data,timeout)*: Calls the Asyn Callback. cb is the return value of createAsyncCallBack.
 * 
