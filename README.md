@@ -105,4 +105,9 @@ JavaScript Component for Hybrid and Web App development
 * *toggleSpinner*: Toggles the laoding spinner.
   - *state*: Optional, can pass the state as true or false.
   - *isWhite*: If true, then spinner will be white else gray.
-* 
+
+### MY Information
+* Will contains the details of the Browser or Device runing.
+* Type MY.Information in Browser inspect for details.
+* Should be readonly except for addToHomeScreen object.
+
